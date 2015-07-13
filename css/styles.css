@@ -1,6 +1,21 @@
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+
+
 //Header
 
-.centered {text-align: center}
+.centered {
+	text-align: center;
+	vertical-align: text-bottom;
+}
+
+.navbar-inverse {
+	background-color: transparent;
+	border-width: 0px;
+	margin-bottom: 200px;
+
+}
 
 .jumbotron {
 	background-image: url("../img/cover.jpg");
