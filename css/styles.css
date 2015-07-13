@@ -16,7 +16,9 @@ body {
 	background-color: transparent;
 	border-width: 0px;
 	margin-bottom: 180px;
-
+}
+.navbar-default {
+	margin-bottom: 5px;
 }
 
 .jumbotron {
@@ -56,7 +58,7 @@ body {
 	border: inherit;
 	text-align: center;
 	padding-bottom: 0px;
-	margin: 20px 0 10px;
+	margin: 10px 0 10px;
 }
 
 #marco {
