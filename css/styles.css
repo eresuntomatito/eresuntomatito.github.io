@@ -1,7 +1,9 @@
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
-
+body {
+	background-color: #cef;
+}
 
 //Header
 
@@ -13,7 +15,7 @@
 .navbar-inverse {
 	background-color: transparent;
 	border-width: 0px;
-	margin-bottom: 200px;
+	margin-bottom: 180px;
 
 }
 
@@ -38,3 +40,72 @@
     color: white;
 }
 
+/*// ihaiku*/
+.row {
+}
+
+.canvas {
+	padding: 0%;
+	border: none;
+	max-width: 350px;
+}
+
+
+.page-header {
+	color: gray;
+	border: inherit;
+	text-align: center;
+	padding-bottom: 0px;
+	margin: 40px 0 10px;
+}
+
+#marco {
+	border: inherit;
+	padding-top: 100px;
+	background-color: snow;
+	position: relative;
+	margin: auto;
+	height: 300px;
+}
+
+#haiku {
+	border: inherit;
+	margin: 10px 20px 10px 20px;
+	vertical-align: middle;
+	text-align: center;
+/*
+    position: relative;
+    width: 200px;
+    height: 60px;
+    
+    vertical-align: 50%;
+    left: 50px;
+    top: 110px;*/
+ }
+
+table {
+	width: 100%;
+	text-align: center;
+	background-color: slategray;
+}
+
+
+
+.btn-group {
+	margin: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	border: inherit;
+	width: 100%;
+}
+.btn {
+  font-family: Lato;
+color: #ffffff;
+  font-size: 15px;
+  background: gray;
+  margin: auto;
+  padding: auto;
+  width: 33.36%;
+  text-decoration: none;
+  float: left;
+}
