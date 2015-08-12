@@ -1,0 +1,32 @@
+
+a {
+	color: white;
+}
+
+.nav {
+	display: inline;
+}
+
+.jumbotron {
+/*	max-height: 400px;*/
+	background-color: black;
+	padding: 0px;
+}
+
+
+#mainlogo {
+	margin:auto;
+	display: block;
+	width: 30%;
+	min-width: 250px;
+	vertical-align: center;
+
+}
+
+.centered {
+	text-align: center;
+
+	background-color: red;
+
+	display: block;
+}
